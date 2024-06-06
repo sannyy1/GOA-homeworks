@@ -19,13 +19,18 @@ num3 = int("15")
 print(num1 + num2 + num3)
 
 #დავალება მეოთხე
-name = str(input("Please enter your name: "))
-num1 = str(input)("Please enter yout first number")
+name = input("Please enter your name: ")
+num1 = int(input("Please enter your number"))
+#name-ში ვერანაირად ვერ გავამრავლებთ, რადგან სტრინგის მათემატიკურ მოქმედებებში გამოყენება შუეძლებელია
+#num1-ზე ჩვეულებრივად მოხდება გამრავლება, რადგან ჩვენ გადავაქციეთ ეს ინტეჯერად.
+print(name * 5)
+print(num1 * 5)
+
 
 
 #დავალება მეხუთე
-num1 = int("Please enter your first favorite number: ")
-num2 = int("Please enter your second favorite number: ")
+num1 = int(input("Please enter your first favorite number: "))
+num2 = int(input("Please enter your second favorite number: "))
 
 print(num1 + num2)
 print(num1 - num2)
