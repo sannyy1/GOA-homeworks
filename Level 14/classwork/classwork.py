@@ -1,12 +1,9 @@
 #დავალება 1
-
 num = 0
-name = "Sandro"
 
 while num < 10:
-    print(name)
+    print("Sandro")
     num += 1
-
 
 
 #დავალება 2
@@ -20,3 +17,5 @@ while num <= 10:
     num += 1
 
 print("The total of all even numbers from 0 to 10 is:", total)
+
+
