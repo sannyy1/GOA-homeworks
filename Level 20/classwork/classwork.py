@@ -1,5 +1,7 @@
-#classwork
-def display_info(name, surname, age):
-    print(name, surname, age)
+def display_info(Sandro, Maisuradze):
+    print(f"Name: {first_name} {last_name}")
+    print(f"Age: {age}")
 
-display_info("Sandor", "Maisuradze", 16)
+first_name = "Sandro"
+last_name = "Maisuradze"
+age = 16
