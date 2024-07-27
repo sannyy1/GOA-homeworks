@@ -50,9 +50,9 @@ for num in range(smallest, largest + 1):
     print(num)
 
 
-#8 განვლილი მასალის გამეორება
+#8 
+#განვლილი მასალის გამეორება
     
-
 
 #9
 product = 1
