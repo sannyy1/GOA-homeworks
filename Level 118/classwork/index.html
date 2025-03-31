@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>ტემპერატურის გადაყვანა</h1>
+    <input type="number" id="temperatureInput" placeholder="შეიყვანეთ ტემპერატურა">
+    
+    <select id="unitSelect">
+      <option value="celsiusToFahrenheit">ცელსიუსი -> ფარენჰეითი</option>
+      <option value="fahrenheitToCelsius">ფარენჰეითი -> ცელსიუსი</option>
+    </select>
+    
+    <button onclick="convertTemperature()">გადაყვანა</button>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
